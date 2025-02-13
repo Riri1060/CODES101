@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Types of Tables</title>
+
+        <style>
+            table, tr, td{
+               border-color: black;
+               border-width: 1px;
+               border-style: solid;
+            }
+
+            caption{
+                text-align: center;
+                caption-side: bottom;
+            }
+        </style>
+    </head>
+
+    <body bgcolor="FFC1CC">
+
+        <table>
+            <caption>Table A</caption>
+            <tbody bgcolor="FFFFF">
+                <tr><!--Row1-->
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                </tr>
+
+                <tr><!--Row2-->
+                    <td>E</td>
+                    <td>F</td>
+                    <td>G</td>
+                </tr>
+            </tbody>
+        </table> <br>
+
+        <table bgcolor="FFFCE4EC"
+               width="50">
+            <caption>Table B</caption>
+            <tbody>
+                <tr><!--Row1-->
+                    <td>A</td>
+                    <td align="right">B</td>
+                </tr>
+                <tr><!--Row2-->
+                    <td>C</td>
+                    <td align="right">D</td>
+                </tr>
+                <tr><!--Row3-->
+                    <td>E</td>
+                    <td align="right">F</td>
+                </tr>
+            </tbody>
+        </table> <br>
+
+        <table>
+            <caption>Table C</caption>
+            <thead  bgcolor="FFF8BBDO">
+                <th colspan="3">Title goes here</th>
+            </thead>
+            <tbody bgcolor="FFFFF">
+                <tr><!--Row2-->
+                    <td>A</td>
+                    <td style="text-align: center;">B</td>
+                    <td style="text-align: right;">C</td>
+                </tr>
+
+                <tr><!--Row3-->
+                    <td>D</td>
+                    <td style="text-align: center;">E</td>
+                    <td style="text-align: right;">F</td>
+                </tr>
+            </tbody>
+        </table>  <br>
+
+        <table bgcolor="FFFCE4EC">
+            <caption>Table E</caption>
+            <tbody>
+                <tr><!--Row1-->
+                    <th colspan="9" rowspan="3" bgcolor="FFFFF">Title goes here</th>
+                    <td>A</td>
+                    <td>B</td>
+                </tr>
+                <tr><!--Row2-->
+                    <td>C</td>
+                    <td>D</td>
+                </tr>
+                <tr><!--Row3-->
+                    <td>E</td>
+                    <td>F</td>
+                </tr>
+            </tbody>
+        </table> <br>
+
+        <table bgcolor="FFFCE4EC"
+               cellpadding="7px"
+               cellspacing="5px">
+            <caption>Table F</caption>
+            <tbody>
+                <tr><!--Row1-->
+                    <th colspan="9" rowspan="3" bgcolor="FFFFF">Title goes here</th>
+                    <td>A</td>
+                    <td>B</td>
+                </tr>
+                <tr><!--Row2-->
+                    <td>C</td>
+                    <td>D</td>
+                </tr>
+                <tr><!--Row3-->
+                    <td>E</td>
+                    <td>F</td>
+                </tr>
+            </tbody>
+        </table> <br>
+        
+        <table bgcolor="FFFFF"
+               cellpadding="px">
+            
+            <caption>Table G</caption>
+            <tbody>
+                <tr><!--Row1-->
+                    <th colspan="9" 
+                        rowspan="3" 
+                        width="100"
+                        align="left"
+                        bgcolor="FF007F">
+                        Title goes <br> here
+                    </th>
+                    <td width="80">A</td>
+                    <td width="80" align="right">B</td>
+                </tr>
+                <tr><!--Row2-->
+                    <td width="80">C</td>
+                    <td width="80" align="right">D</td>
+                </tr>
+                <tr><!--Row3-->
+                    <td width="80">E</td>
+                    <td width="80" align="right">F</td>
+                </tr>
+            </tbody>
+        </table> <br>
+
+        <table cellspacing="2"
+                cellpadding="10">
+            <caption>Table H</caption>
+            <tbody>
+                <tr> <!--Row1-->
+                    <td colspan="3">Title goes here</td>
+                    <td>A</td>
+                    <td align="right">B</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="3" align="left">C</td>
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                    <td align="right">G</td>
+                </tr>
+
+                <tr>
+                    <td>H</td>
+                    <td colspan="2" align="center">I</td>
+                    <td rowspan="2" align="right" valign="bottom">J</td>
+                </tr>
+
+                <tr>
+                    <td>K</td>
+                    <td>L</td>
+                    <td>M</td>
+                </tr>
+
+                <tr>
+                    <td>N</td>
+                    <td colspan="4">O</td>
+                </tr>
+            </tbody>
+        </table> <br>
+
+
+ 
+    </body>
+
+</html>
