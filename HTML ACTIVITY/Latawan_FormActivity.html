@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>HTML Form</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body bgcolor="E18B6B">
 
-    <body>
-        <h1></h1>
+    <h2>HTML Form</h2>
 
-        <form>
+    <form action="#" method="post">
+        
+        <!-- User Name -->
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </p>
+
+        <!-- User Email -->
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+
+        <!-- Gender Selection -->
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
             
-        </form>
-    </body>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+        </fieldset>
+
+        <!-- Hobbies Selection -->
+        <fieldset>
+            <legend>Hobbies:</legend>
+            <input type="checkbox" id="reading" name="hobbies" value="Reading">
+            <label for="reading">Reading</label><br>
+
+            <input type="checkbox" id="traveling" name="hobbies" value="Traveling">
+            <label for="traveling">Traveling</label><br>
+
+            <input type="checkbox" id="sports" name="hobbies" value="Sports">
+            <label for="sports">Sports</label> <br>
+
+            <input type="checkbox" id="Writing" name="hobbies" value="Writing">
+            <label for="Writing">Sports</label> <br>
+
+            <input type="checkbox" id="Baking" name="hobbies" value="Baking">
+            <label for="Baking">Sports</label><br>
+
+        </fieldset>
+
+        <!-- Additional Comments -->
+        <p>
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+        </p>
+
+        <!-- Submit Button -->
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+
+    </form>
+
+</body>
 </html>
